@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ section.content | safe }}
+
+{%- if lang == "en" -%}
+  {%- set blog_path = "blog/_index.md" -%}
+{%- else -%}
+  {%- set blog_path = "blog/_index." ~ lang ~ ".md" -%}
+{%- endif -%}
+{%- set other = get_section(path=blog_path) -%}
+
+{%- set date_format = macros_translate::translate(key="date_format", default="%B %d, %Y", language_strings=language_strings) -%}
+{%- set date_locale = macros_translate::translate(key="date_locale", default="en_US", language_strings=language_strings) -%}
+
+{%- set i = 0 -%}
+
+<h3>{{ macros_translate::translate(key="latest", default="Latest Articles", language_strings=language_strings) -}}</h3>
+<div id="article-list">
+	{%- for page in other.pages %}
+        {%- if i == 3 -%}
+            {%- break -%}
+        {%- endif -%}
+		{%- if page.draft -%}
+            {%- continue -%}
+		{%- elif page.extra.archive -%}
+            {%- continue -%}
+		{%- elif page.extra.featured -%}
+			{%- set article_type = "featured" -%}
+			{%- set article_string = macros_translate::translate(key="featured", default="Featured", language_strings=language_strings) -%}
+		{%- elif page.extra.hot -%}
+			{%- set article_type = "hot" -%}
+			{%- set article_string = macros_translate::translate(key="hot", default="Hot", language_strings=language_strings) -%}
+		{%- elif page.extra.poor -%}
+            {%- continue -%}
+		{%- endif -%}
+		{%- if page.extra.banner -%}
+			{%- if config.extra.blurnail is not defined or config.extra.blurnail -%}
+				{%- set blurnail = resize_image(path=page.colocated_path ~ page.extra.banner, width=4, height=2, op="fill", format="webp") -%}
+			{%- endif -%}
+		{%- endif -%}
+		<article {% if article_type %}class="{{ article_type }}"{% endif %} {% if blurnail %}style="--blurnail: url('{{ blurnail.url }}')"{% endif %}>
+			<a href="{{ page.permalink | safe }}"></a>
+			{% if article_type %}
+				<span class="badge">
+					<i class="icon"></i>
+					{{- article_string -}}
+				</span>
+			{%- endif %}
+			<h3>
+				<a href="{{ page.permalink | safe }}">
+				{{ page.title }}
+				</a>
+			</h3>
+			{%- if page.description %}
+				{{ page.description | markdown | safe }}
+			{%- endif %}
+			{%- if page.date -%}
+				<div class="details">
+					<small>
+						<time datetime="{{ page.date | date(format='%+') }}" pubdate>
+							{{- page.date | date(format=date_format, locale=date_locale) -}}
+						</time>
+						{%- if page.authors -%}
+							<span> {{ config.extra.separator | default(value="•") }} {% include "partials/authors.html" -%}</span>
+						{%- endif -%}
+					</small>
+					{%- if page.taxonomies -%}
+						{%- for name, taxon in page.taxonomies %}
+							<small>
+								<ul class="tags">
+									<a class="tag" href="{{- get_url(path=name, lang=lang) | lower -}}">{{ macros_translate::translate(key=name, default=name, language_strings=language_strings) }}:</a>
+									{%- for item in taxon -%}
+										<li><a class="tag" href="{{ get_taxonomy_url(kind=name, name=item, lang=lang) }}">{{ item }}</a></li>
+									{%- endfor %}
+								</ul>
+							</small>
+						{%- endfor -%}
+					{%- endif %}
+				</div>
+			{%- endif -%}
+		</article>
+	{%- endfor %}
+</div>
+
+{% endblock content %}

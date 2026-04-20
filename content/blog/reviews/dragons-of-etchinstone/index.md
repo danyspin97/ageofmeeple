@@ -5,12 +5,17 @@ template = "article.html"
 date = 2026-04-20
 authors = [ "Danilo Spinella" ]
 [taxonomies]
-tags = [ "solo" ]
+tags = [ "solo", "microgames" ]
 [extra]
 toc = true
 toc_ordered = false
 toc_sidebar = true
 reading_time = 4
+banner = "banner.webp"
+[extra.comments]
+host = "mastodon.social"
+user = "@ageofmeeple"
+id = "116437713900405475"
 +++
 
 ## Overview

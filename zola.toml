@@ -21,11 +21,10 @@ default_language = "en"
 
 [markdown.highlighting]
 theme = "catppuccin-mocha"
-
 [extra]
 # Put all your custom variables here
 default_theme = "light"
-accent_color = "#f2ac3c"
+accent_color = "#744d10"
 accent_color_dark = "#8e6a30"
 toc = true
 toc_inline = true

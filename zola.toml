@@ -17,6 +17,7 @@ title = "Age of Meeple"
 
 default_language = "en"
 
+description = "A blog about board games content and reviews, available in English and Italian"
 [markdown]
 
 [markdown.highlighting]

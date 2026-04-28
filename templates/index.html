@@ -3,6 +3,12 @@
 {% block content %}
 {{ section.content | safe }}
 
+{%- if section.extra.banner -%}
+    <div id="banner-container">
+        <img id="banner" class="full-bleed{% if section.extra.banner_pixels %} pixels{% endif %}" src="{{ current_url ~ section.extra.banner }}" decoding="async" fetchpriority="high" />
+    </div>
+{%- endif -%}
+
 {%- if lang == "en" -%}
   {%- set blog_path = "blog/_index.md" -%}
 {%- else -%}

@@ -1,0 +1,30 @@
+.bubble {
+  position: relative;
+  transition: var(--transition);
+  box-shadow: var(--edge-highlight), var(--shadow-glass);
+  border-radius: var(--rounded-corner);
+  border-start-end-radius: 2.125rem;
+  border-end-end-radius: 1.8125rem;
+  background-position: center;
+  background-size: cover;
+  padding: 1rem;
+  opacity: 0.98;
+  overflow: hidden;
+  background-color: color-mix(in srgb, var(--accent-color) 42%, black);
+}
+
+[data-theme="light"] .bubble {
+  background-color: color-mix(in srgb, var(--accent-color) 31%, white);
+}
+
+[data-theme="light"] #article-list article {
+  background-color: color-mix(in srgb, var(--accent-color) 31%, white);
+}
+
+[data-theme="dark"] .bubble {
+  background-color: color-mix(in srgb, var(--accent-color) 42%, black);
+}
+
+[data-theme="dark"] #article-list article {
+  background-color: color-mix(in srgb, var(--accent-color) 42%, black);
+}

@@ -33,6 +33,7 @@ toc_sidebar = true
 bundled_fonts = true
 source_url = "https://github.com/danyspin97/ageofmeeple"
 show_reading_time = true
+styles = [ "bubble.css" ]
 
 [extra.nav]
 show_feed = true

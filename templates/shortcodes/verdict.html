@@ -1,0 +1,10 @@
+<div class="verdict">
+  <div class="verdict__score">
+    <span class="verdict__number">{{ vote }}</span>
+    <span class="verdict__max">/ {{ max | default(value="10") }}</span>
+  </div>
+  <div class="verdict__body">
+    <h3 class="verdict__heading">The verdict</h3>
+    <p class="verdict__text">{{ text }}</p>
+  </div>
+</div>

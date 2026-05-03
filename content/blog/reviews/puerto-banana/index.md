@@ -58,3 +58,11 @@ example round. Yes, some players will write random numbers all night and never
 win. Yes, there's a little math every round. However, the game moves so fast it
 barely matters. When it clicks, you'll spend every round trying to outsmart
 your opponents, chasing the rush of a winning bid.") }}
+
+---
+
+## Similar games
+
+Bidding games are often very different; {{ bgg(name="For Sale", id="172") }} for example gives you a certain amount of paper money that you can use through the game to buy houses; {{ bgg(name="Ra", id="12") }} gives you sun disks with different values on them.
+
+Puerto Banana uses an abstract currency, which is something pretty unique. Yet, there is a very close game, {{ bgg(name="QE", id="266830") }}, that uses bidding in the same way. In QE, you can bid any number throughout the game, with the caveat that the player that has spent the most will have lost and won't count his points. QE builds a more complex framework on top of the same mechanism, adding more layers, strategy and set collection, while keeping bidding at its core. If you like Puerto Banana but are looking for something meatier, QE will be the game for you.

@@ -2,7 +2,7 @@
 title = "Dragons Down - Review"
 description = "Being hunted by monsters in a land of pure luck"
 template = "article.html"
-date = 2026-05-03
+date = 2026-07-15
 authors = [ "Danilo Spinella" ]
 [taxonomies]
 tags = [ "sandbox", "heavy", "fantasy" ]

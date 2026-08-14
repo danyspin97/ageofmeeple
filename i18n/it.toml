@@ -16,7 +16,7 @@ Mods = "Mods"
 Coffee = "Caffè"
 
 alert_caution = "Caution"
-alert_important = "Importate"
+alert_important = "Importante"
 alert_note = "Nota"
 alert_tip = "Consiglio"
 alert_warning = "Avvertimento"

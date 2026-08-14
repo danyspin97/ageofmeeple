@@ -51,7 +51,7 @@ the time of writing) to learn about all edge cases and rules not covered here.
 Let's start with the gameplay and mechanics first, as they only serve to
 create the experience, which we are going to discuss extensively later.
  
-![](https://cf.geekdo-images.com/ZWBeQptsMtsbhdKDzHkM0g__imagepage/img/8JyuDO4FwCR-Sqe73H-GwZCi8Ng=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7470609.png#end)
+![Dwarf Warrior character sheet showing lineage and class stats, life points, and starting items](https://cf.geekdo-images.com/ZWBeQptsMtsbhdKDzHkM0g__imagepage/img/8JyuDO4FwCR-Sqe73H-GwZCi8Ng=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7470609.png#end)
  
 Each player controls one character, and every character has a **lineage** and a
 **class**. A lineage could be a *Human*, a *Dwarf*, an *Elf* or the likes, as

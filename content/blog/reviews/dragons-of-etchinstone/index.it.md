@@ -20,7 +20,7 @@ id = "116437713900405475"
 
 ## Panoramica
 
-![](https://cf.geekdo-images.com/pxTBHs5SUV0ik-GohEwQqg__imagepage/img/-_OVw3p94I8oCwcKKqFx4lcJR2E=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9316638.jpg#start)
+![Copertina di Dragons of Etchinstone con l'emblema del drago](https://cf.geekdo-images.com/pxTBHs5SUV0ik-GohEwQqg__imagepage/img/-_OVw3p94I8oCwcKKqFx4lcJR2E=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9316638.jpg#start)
 **Dragons of Etchinstone** è un gioco in solitario che
 ci mette alla prova contro un'orda di nemici sempre più forti, mentre il
 nostro mago viaggia per sentieri impervii e pericolosi verso un obiettivo preciso:
@@ -66,7 +66,7 @@ avere un mazzo capace di affrontare entrambe le sfide, che avranno una
 **difficoltà crescente** durante la partita. Ogni nemico o viaggio può avere i
 suoi modificatori, e anche la chiave può aggiungerne di suoi, sempre negativi.
 
-![](cards.webp#end)
+![Diagramma che spiega l'anatomia di una carta magia, con le etichette per livello, icona e valore dell'incontro, difficoltà, iniziativa, azione base e potenziata, boost, armatura e costo di potenziamento](cards.webp#end)
 
 Parliamo del punto centrale del gioco: **le carte**. Ad ogni sfida, avremo 4 o
 meno carte che possiamo usare per attivare le nostre magie. Ogni carta è *densa
@@ -165,7 +165,7 @@ carte stesse.
 
 {% alert(note=true) %}
 
-![](https://cf.geekdo-images.com/SajQf5u96NpPzaCvF2cUrQ__imagepage/img/oqODQGKvUK6-ujzbmIDxgZ6aC74=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9317069.jpg#end#spoiler)
+![Copertina di Felines of Fetchin' Bone, la versione a tema gatti di Dragons of Etchinstone](https://cf.geekdo-images.com/SajQf5u96NpPzaCvF2cUrQ__imagepage/img/oqODQGKvUK6-ujzbmIDxgZ6aC74=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9317069.jpg#end#spoiler)
 Durante la campagna è uscita una versione PnP gratuita di *Dragons of Etchinstone*
 chiamata **Felines of Fetchin' Bone**, in cui l'artwork originale è sostituito
 dalle foto dei gatti inviati dai backer della campagna Gamefound. Trovate

@@ -20,7 +20,7 @@ id = "116437713900405475"
 
 ## Overview
 
-![](https://cf.geekdo-images.com/pxTBHs5SUV0ik-GohEwQqg__imagepage/img/-_OVw3p94I8oCwcKKqFx4lcJR2E=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9316638.jpg#start)
+![Dragons of Etchinstone cover art featuring the game's dragon emblem](https://cf.geekdo-images.com/pxTBHs5SUV0ik-GohEwQqg__imagepage/img/-_OVw3p94I8oCwcKKqFx4lcJR2E=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9316638.jpg#start)
 **Dragons of Etchinstone** is a solo game that puts us against an ever-growing
 horde of enemies, while our wizard travels treacherous and perilous paths
 toward a single goal: facing one of the dragons of Etchinstone, the boss that
@@ -66,7 +66,7 @@ both, as challenges will grow in **increasing difficulty** throughout the game.
 Each enemy or journey can have its own modifiers, and the key card can add
 further ones, always negative.
 
-![](cards.webp#end)
+![Diagram explaining the anatomy of a Mage Card, labeling its level, encounter icon, hardship, initiative, basic and enhanced actions, boost, armor, and upgrade cost](cards.webp#end)
 
 Let's talk about the heart of the game: **the cards**. Each challenge gives us
 4 or fewer cards to activate our spells. Every card is *packed with
@@ -158,7 +158,7 @@ cards themselves.
 
 {% alert(note=true) %}
 
-![](https://cf.geekdo-images.com/SajQf5u96NpPzaCvF2cUrQ__imagepage/img/oqODQGKvUK6-ujzbmIDxgZ6aC74=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9317069.jpg#end#spoiler)
+![Felines of Fetchin' Bone cover art, the cat-themed alternate version of Dragons of Etchinstone](https://cf.geekdo-images.com/SajQf5u96NpPzaCvF2cUrQ__imagepage/img/oqODQGKvUK6-ujzbmIDxgZ6aC74=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9317069.jpg#end#spoiler)
 During the campaign, a free PnP version of *Dragons of Etchinstone* was
 released called **Felines of Fetchin' Bone**, in which the original artwork is
 replaced by photos of cats sent in by Gamefound backers. You can find more

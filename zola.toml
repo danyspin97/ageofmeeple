@@ -5,7 +5,7 @@ base_url = "https://ageofmeeple.com"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+build_search_index = true
 
 # generate_feeds = true
 
@@ -22,6 +22,9 @@ description = "A blog about board games content and reviews, available in Englis
 
 [markdown.highlighting]
 theme = "catppuccin-mocha"
+
+[search]
+index_format = "fuse_json"
 [extra]
 # Put all your custom variables here
 default_theme = "light"
@@ -65,6 +68,7 @@ user = "ageofmeeple"
 # feed_filenames = ["rss.xml", "atom.xml"]
 title = "Age of Meeple"
 description = "Un blog sui giochi da tavolo"
+build_search_index = true
 taxonomies = [{ name = "tags", feed = true }]
 
 # [languages.en]

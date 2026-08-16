@@ -31,7 +31,6 @@ default_theme = "light"
 accent_color = "#744d10"
 accent_color_dark = "#8e6a30"
 toc = true
-toc_inline = true
 toc_sidebar = true
 bundled_fonts = true
 source_url = "https://github.com/danyspin97/ageofmeeple"

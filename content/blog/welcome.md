@@ -5,7 +5,6 @@ template = "article.html"
 date = 2026-04-20
 authors = [ "Danilo Spinella" ]
 [extra]
-reading_time = 2
 +++
 
 Welcome! I'm Danilo, and this is my blog dedicated to board games; expect

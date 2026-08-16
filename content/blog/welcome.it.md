@@ -5,7 +5,6 @@ template = "article.html"
 date = 2026-04-20
 authors = [ "Danilo Spinella" ]
 [extra]
-reading_time = 2
 +++
 
 Benvenuti! Sono Danilo e vi terrò compagnia su questo blog parlando di

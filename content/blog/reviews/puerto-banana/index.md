@@ -9,7 +9,6 @@ tags = [ "bidding", "party", "filler" ]
 [extra]
 toc = true
 toc_sidebar = true
-reading_time = 4
 banner = "banner.webp"
 +++
 

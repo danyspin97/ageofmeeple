@@ -10,7 +10,6 @@ tags = [ "solo", "microgames" ]
 toc = true
 toc_ordered = false
 toc_sidebar = true
-reading_time = 4
 banner = "banner.webp"
 [extra.comments]
 host = "mastodon.social"

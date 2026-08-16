@@ -9,7 +9,6 @@ tags = [ "sandbox", "heavy", "fantasy" ]
 [extra]
 toc = true
 toc_sidebar = true
-reading_time = 15
 banner = "banner.webp"
 +++
 

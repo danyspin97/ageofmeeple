@@ -50,7 +50,7 @@
 					{%- endif -%}
 
 					{%- if config.extra.show_reading_time -%}
-						<span>{{ macros_translate::translate(key="minutes_read", number=page.extra.reading_time, default="$NUMBER minute read", language_strings=language_strings) }}</span>
+						<span>{{ macros_translate::translate(key="minutes_read", number=page.reading_time, default="$NUMBER minute read", language_strings=language_strings) }}</span>
 						{%- if page.taxonomies -%}
 							<span> {{ config.extra.separator | default(value="•") }} </span>
 						{%- endif -%}

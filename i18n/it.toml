@@ -85,6 +85,6 @@ theme_light = "Passa al tema chiaro"
 theme_system = "Usa il tema del sistema"
 trigger_warning = "Trigger Warning"
 updated = "Aggiornato a"
+verdict = "Il verdetto"
 view_comment = "View Comment At"
 view_profile = "View Profile At"
-

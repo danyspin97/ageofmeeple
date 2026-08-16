@@ -1,10 +1,15 @@
+{%- import "macros/translate.html" as macros_translate -%}
+{%- set language_strings = load_data(path="i18n/" ~ lang ~ ".toml", required=false) -%}
+{%- if not language_strings -%}
+	{%- set language_strings = load_data(path="themes/duckquill/i18n/" ~ lang ~ ".toml", required=false) -%}
+{%- endif -%}
 <div class="verdict">
   <div class="verdict__score">
     <span class="verdict__number">{{ vote }}</span>
     <span class="verdict__max">/ {{ max | default(value="10") }}</span>
   </div>
   <div class="verdict__body">
-    <h3 class="verdict__heading">The verdict</h3>
+    <h3 class="verdict__heading">{{ macros_translate::translate(key="verdict", default="The verdict", language_strings=language_strings) }}</h3>
     <p class="verdict__text">{{ text }}</p>
   </div>
 </div>

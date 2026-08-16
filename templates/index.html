@@ -19,12 +19,12 @@
 {%- set date_format = macros_translate::translate(key="date_format", default="%B %d, %Y", language_strings=language_strings) -%}
 {%- set date_locale = macros_translate::translate(key="date_locale", default="en_US", language_strings=language_strings) -%}
 
-{%- set i = 0 -%}
+{%- set_global shown = 0 -%}
 
 <h3>{{ macros_translate::translate(key="latest", default="Latest Articles", language_strings=language_strings) -}}</h3>
 <div id="article-list">
 	{%- for page in other.pages %}
-        {%- if i == 3 -%}
+        {%- if shown == 3 -%}
             {%- break -%}
         {%- endif -%}
 		{%- if page.draft -%}
@@ -86,6 +86,7 @@
 				</div>
 			{%- endif -%}
 		</article>
+		{%- set_global shown = shown + 1 -%}
 	{%- endfor %}
 </div>
 

@@ -1,0 +1,51 @@
+{#- Overrides the Duckquill partial: link to the actual translation when it
+    exists and fall back to the language's homepage, instead of rewriting the
+    current URL and linking to pages that were never translated. -#}
+
+<li id="language-switcher">
+	<details class="closable">
+		<summary class="circle" title="{{ macros_translate::translate(key='language', default='Language', language_strings=language_strings) }}">
+			<i class="icon"></i>
+		</summary>
+		<ul>
+			{%- for lcode, ldetails in config.languages -%}
+				{#- Skip the current language to avoid linking to the current page -#}
+				{%- if lang == lcode -%}
+					{%- continue -%}
+				{%- endif -%}
+				{#- Dynamically load the language strings for each language -#}
+				{%- set other_language_strings = load_data(path="i18n/" ~ lcode ~ ".toml", required=false) -%}
+				{%- if not other_language_strings -%}
+					{%- set other_language_strings = load_data(path="themes/duckquill/i18n/" ~ lcode ~ ".toml", required=false) -%}
+				{%- endif -%}
+				{#- Use the loaded language strings to get the language name -#}
+				{% set language_name = macros_translate::translate(key="language_name", default=lcode, language_strings=other_language_strings) %}
+				{%- set_global translation_url = "" -%}
+				{%- if page and page.translations -%}
+					{%- for t in page.translations -%}
+						{%- if t.lang == lcode -%}
+							{%- set_global translation_url = t.permalink -%}
+						{%- endif -%}
+					{%- endfor -%}
+				{%- elif section and section.translations -%}
+					{%- for t in section.translations -%}
+						{%- if t.lang == lcode -%}
+							{%- set_global translation_url = t.permalink -%}
+						{%- endif -%}
+					{%- endfor -%}
+				{%- endif -%}
+				{%- if not translation_url -%}
+					{#- No translation: fall back to that language's homepage -#}
+					{%- if lcode == config.default_language -%}
+						{%- set_global translation_url = config.base_url ~ "/" -%}
+					{%- else -%}
+						{%- set_global translation_url = config.base_url ~ "/" ~ lcode ~ "/" -%}
+					{%- endif -%}
+				{%- endif -%}
+				<li>
+					<a lang="{{ lcode }}" href="{{ translation_url | safe }}">{{ language_name }}</a>
+				</li>
+			{%- endfor -%}
+		</ul>
+	</details>
+</li>

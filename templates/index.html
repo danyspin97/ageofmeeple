@@ -21,7 +21,7 @@
 
 {%- set_global shown = 0 -%}
 
-<h3>{{ macros_translate::translate(key="latest", default="Latest Articles", language_strings=language_strings) -}}</h3>
+<h2>{{ macros_translate::translate(key="latest", default="Latest Articles", language_strings=language_strings) -}}</h2>
 <div id="article-list">
 	{%- for page in other.pages %}
         {%- if shown == 3 -%}

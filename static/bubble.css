@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.all-posts {
+  text-align: center;
+  font-weight: bold;
+}
+
 .bubble {
   position: relative;
   transition: var(--transition);

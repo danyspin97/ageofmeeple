@@ -90,4 +90,8 @@
 	{%- endfor %}
 </div>
 
+<p class="all-posts">
+	<a href="{{ get_url(path='@/blog/_index.md', lang=lang) }}">{{ macros_translate::translate(key="all_posts", default="All Posts", language_strings=language_strings) }} →</a>
+</p>
+
 {% endblock content %}

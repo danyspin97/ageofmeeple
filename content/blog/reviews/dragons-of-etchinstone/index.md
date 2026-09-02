@@ -13,7 +13,7 @@ toc_sidebar = true
 banner = "banner.webp"
 [extra.comments]
 host = "mastodon.social"
-user = "@ageofmeeple"
+user = "ageofmeeple"
 id = "116437713900405475"
 +++
 

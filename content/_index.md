@@ -1,5 +1,5 @@
 +++
-title = "index"
+title = "Age of Meeple"
 [extra]
 banner = "banner.webp"
 +++

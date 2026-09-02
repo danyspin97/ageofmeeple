@@ -15,15 +15,14 @@ banner = "banner.webp"
 | **Players:** 2–4* | **Play time:** 120-240min | **Category:** Sandbox |
 |------------------|------------------------|--------------------------------|
  
-{% alert(note=true) %}
+{% <alert note={true}> %}
 Up to 6 players with the expansions.
-{% end %}
+{% </alert> %}
  
 ## Being hunted by monsters in a land of pure luck
  
 How to describe *Dragons Down*? It's big, massive, and it attempts to reach a new
-level of sandboxing, mimicking its predecessor, {{ bgg(name="Magic Realm",
-id="22") }}. At its core it's a fantasy roleplaying game, where you start by
+level of sandboxing, mimicking its predecessor, {{<bgg name="Magic Realm" id="22" />}}. At its core it's a fantasy roleplaying game, where you start by
 choosing your lineage and class, and depart to find fame and glory, finding
 items, and hunting monsters. No, literally — you depart to find Fame that will
 lead to **Legend Points**, the victory points of the game. It's not meant to be
@@ -38,14 +37,14 @@ these harsh lands? Be sure to bring a lucky charm, because things are rough in
  
 ## Gameplay
  
-{% alert(note=true) %}
+{% <alert note={true}> %}
 The rules will not be explained in full in order to keep this review concise.
 Be sure to read the [rulebook] or watch the [How to play video] (the only one at
 the time of writing) to learn about all edge cases and rules not covered here.
  
 [rulebook]: https://www.scribd.com/document/681710978/Dragons-Down-Rules-v1-0
 [How to play video]: https://www.youtube.com/watch?v=_TQnyrBFziU
-{% end %}
+{% </alert> %}
  
 Let's start with the gameplay and mechanics first, as they only serve to
 create the experience, which we are going to discuss extensively later.
@@ -338,11 +337,11 @@ the rulebook after a single read.
  
 ---
  
-{{ verdict(vote="6.5", text="The game is a work of passion, but unfortunately
+{{<verdict vote="6.5" text="The game is a work of passion, but unfortunately
 doesn't manage to live up to its own hype. Some mechanics are interesting,
 such as combat and spells, and its replayability is top-notch, but the game
 itself needs to be streamlined to be snappier and focus more on the adventure
 rather than the edge cases and complexity of the mechanics. It also needs more
 dynamic events to stray from the classic, and a bit boring, monster
-summoning.") }}
+summoning." />}}
  

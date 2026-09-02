@@ -34,17 +34,17 @@ original gameplay completely untouched, but brings a fresh and striking visual
 identity that allowed the game to reach a much wider audience. And it is this
 edition we are reviewing today.
 
-{% alert(note=true) %}
+{% <alert note={true}> %}
 *Dragons of Etchinstone* belongs to the **microgame** category: games made
 entirely of a small number of cards, usually *18*, and therefore easy to print
 at home. Among the most well-known and commercially successful publishers in
 this space is [Button Shy Games](https://buttonshygames.com/).
-{% end %}
+{% </alert> %}
 
 
 ## Gameplay
 
-{% alert(note=true) %}
+{% <alert note={true}> %}
 The rules will not be explained in full in order to keep this review concise.
 If you want to learn the rules before diving into the review, you can use the [rulebook],
 the [official video tutorial], or the [interactive tutorial] on [Dized].
@@ -53,7 +53,7 @@ the [official video tutorial], or the [interactive tutorial] on [Dized].
 [official video tutorial]: https://www.youtube.com/watch?v=Xwtl-U-hvIE
 [interactive tutorial]: https://app.dized.com/game/0ac90cae-c222-4f84-bf52-00f9b1e08e51
 [Dized]: https://app.dized.com/
-{% end %}
+{% </alert> %}
 
 The flow of *Dragons of Etchinstone* is **very linear**: each turn we will face
 either an enemy or a journey. The choice between the two is determined by the
@@ -106,8 +106,7 @@ of the game, but also the most rewarding.
 
 Using the combination of region and key card makes for **very diverse and
 varied games**. That said, a second set of regions would have been very welcome
-for added replayability (something addressed in the {{ bgg(name="Northvale",
-id="409837") }} expansion). There are 10 modifiers in total, spread across key
+for added replayability (something addressed in the {{<bgg name="Northvale" id="409837" />}} expansion). There are 10 modifiers in total, spread across key
 cards, enemies, and journeys, a decent number to ensure you won't see the same
 combinations every game. For the final dragon, *Dragons of Etchinstone*
 provides four, one for each element. Unfortunately there is no way to adjust
@@ -116,8 +115,7 @@ significant drawback, especially considering that the cards will be the same
 across every playthrough: *the game might seem to have a limited shelf life*.
 Saving the day are two variants, *[Challenge Mode]* and [Adventure Co-Op], each
 offering different rule sets to choose from, and either one alone would go a
-long way toward making the game much more replayable. Add the two expansions {{
-bgg(name="Northvale", id="409837") }} and {{ bgg(name="Siege", id="443422") }},
+long way toward making the game much more replayable. Add the two expansions {{<bgg name="Northvale" id="409837" />}} and {{<bgg name="Siege" id="443422" />}},
 plus the [Adventure Mode] and [Minimalist Co-op] variants that require the
 Northvale expansion, and the game becomes **virtually endless**.
 
@@ -136,10 +134,10 @@ side.
 
 ## Production & Art
 
-{% alert(tip=true) %}
+{% <alert tip={true}> %}
 Be aware that several owners of the first print run have reported that the cards
 show wear after just a couple of plays, sleeve them before your first game.
-{% end %}
+{% </alert> %}
 
 On the art side, *Federico Pompili* truly shines on the dragons and monsters,
 conveying the menacing atmosphere of the Vale regions with great effect.
@@ -155,7 +153,7 @@ space while keeping everything readable is no small feat, and yet the result
 is convincing, helped in no small part by the total absence of text on the
 cards themselves.
 
-{% alert(note=true) %}
+{% <alert note={true}> %}
 
 ![Felines of Fetchin' Bone cover art, the cat-themed alternate version of Dragons of Etchinstone](https://cf.geekdo-images.com/SajQf5u96NpPzaCvF2cUrQ__imagepage/img/oqODQGKvUK6-ujzbmIDxgZ6aC74=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9317069.jpg#end#spoiler)
 During the campaign, a free PnP version of *Dragons of Etchinstone* was
@@ -166,7 +164,7 @@ information and links in the [campaign post](https://gamefound.com/en/projects/c
 There is also an unofficial Pokémon-themed version: [Legends of Kanto](https://boardgamegeek.com/filepage/306995/legends-of-kanto),
 available for free as a PnP.
 
-{% end %}
+{% </alert> %}
 
 ## Conclusion
 
@@ -186,6 +184,6 @@ Final score: **7.5**
 
 Finding games truly similar to *Dragons of Etchinstone* is no easy task, but
 among Joe's other designs we have
-{{ bgg(name="Gloomhaven: Buttons & Bugs", id="393672") }}, another tiny game
+{{<bgg name="Gloomhaven: Buttons & Bugs" id="393672" />}}, another tiny game
 that in 20 minutes delivers a similar experience to its bigger sibling
 Gloomhaven, albeit a more distilled one.

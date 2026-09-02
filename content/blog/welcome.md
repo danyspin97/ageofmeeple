@@ -10,10 +10,9 @@ authors = [ "Danilo Spinella" ]
 Welcome! I'm Danilo, and this is my blog dedicated to board games; expect
 reviews, deep dives, first impressions, and much more.
 
-But first, a bit about me: it all started with the wildly popular {{
-bgg(name="Exploding Kittens", id="172225") }}, then I discovered the timeless
-classic {{ bgg(name="Carcassonne", id="822") }}, and eventually fell in love
-with {{ bgg(name="Puerto Rico", id="3076") }}. Since then, I've been going down
+But first, a bit about me: it all started with the wildly popular {{<bgg name="Exploding Kittens" id="172225" />}}, then I discovered the timeless
+classic {{<bgg name="Carcassonne" id="822" />}}, and eventually fell in love
+with {{<bgg name="Puerto Rico" id="3076" />}}. Since then, I've been going down
 the rabbit hole — playing, collecting, and living and breathing board games.
 
 As for the types of games we'll cover, expect a broad range: from **party

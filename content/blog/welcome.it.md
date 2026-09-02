@@ -11,10 +11,8 @@ Benvenuti! Sono Danilo e vi terrò compagnia su questo blog parlando di
 giochi da tavolo, a partire da recensioni, approfondimenti, prime impressioni e molto altro.
 
 Per iniziare, una piccola introduzione su di me: ho iniziato a giocare ormai da
-più di un paio di anni, partendo dal più conosciuto e blasonato {{
-bgg(name="Exploding Kittens", id="172225") }}, passando dall'intramontabile
-classico {{ bgg(name="Carcassonne", id="822") }}, per poi innamorarmi di {{
-bgg(name="Puerto Rico", id="3076") }}. Da allora continuo a giocare,
+più di un paio di anni, partendo dal più conosciuto e blasonato {{<bgg name="Exploding Kittens" id="172225" />}}, passando dall'intramontabile
+classico {{<bgg name="Carcassonne" id="822" />}}, per poi innamorarmi di {{<bgg name="Puerto Rico" id="3076" />}}. Da allora continuo a giocare,
 collezionare e vivere la passione dei giochi da tavolo.
 
 Come tipologia di giochi, spazieremo dai **giochi party**, passando per i

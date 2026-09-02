@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+/* The theme dims the sidebar table of contents to opacity: 0.2 at
+   rest (full opacity only on hover), which is too low-contrast to
+   read comfortably. Raise the resting opacity while keeping the
+   hover-to-full-brightness behavior. */
+#sidebar {
+  opacity: 0.6;
+}
+
 .all-posts {
   text-align: center;
   font-weight: bold;

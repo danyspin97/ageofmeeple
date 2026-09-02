@@ -4,7 +4,7 @@
 
 <li id="language-switcher">
 	<details class="closable">
-		<summary class="circle" title="{{ macros_translate::translate(key='language', default='Language', language_strings=language_strings) }}">
+		<summary class="circle" title="{{ <translate key="language" default="Language" language_strings /> }}">
 			<i class="icon"></i>
 		</summary>
 		<ul>
@@ -18,16 +18,17 @@
 				{%- if not other_language_strings -%}
 					{%- set other_language_strings = load_data(path="themes/duckquill/i18n/" ~ lcode ~ ".toml", required=false) -%}
 				{%- endif -%}
+				{%- set other_language_strings = other_language_strings or {} -%}
 				{#- Use the loaded language strings to get the language name -#}
-				{% set language_name = macros_translate::translate(key="language_name", default=lcode, language_strings=other_language_strings) %}
+				{% set language_name = <translate key="language_name" default={lcode} language_strings={other_language_strings} /> %}
 				{%- set_global translation_url = "" -%}
-				{%- if page and page.translations -%}
+				{%- if page?.translations -%}
 					{%- for t in page.translations -%}
 						{%- if t.lang == lcode -%}
 							{%- set_global translation_url = t.permalink -%}
 						{%- endif -%}
 					{%- endfor -%}
-				{%- elif section and section.translations -%}
+				{%- elif section?.translations -%}
 					{%- for t in section.translations -%}
 						{%- if t.lang == lcode -%}
 							{%- set_global translation_url = t.permalink -%}

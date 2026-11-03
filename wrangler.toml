@@ -1,0 +1,8 @@
+name = "ageofmeeple"
+compatibility_date = "2026-11-03"
+
+[build]
+command = "bash ./build.sh"
+
+[assets]
+directory = "./public"
